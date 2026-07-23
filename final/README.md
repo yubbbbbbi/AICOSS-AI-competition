@@ -49,10 +49,10 @@ final/
 
 | 파일 | 내용 |
 |---|---|
-| `b5_final.pt` | **최종 모델** ConcatMLP (12→48→24→3), B5 채택 |
+| `b5_final.pt` |  ConcatMLP (12→48→24→3) |
 | `b5_config.json` | feature 순서·정규화 규칙·하이퍼파라미터 |
 | `scaler.pkl` | 정규화 통계 (전체 데이터 mean/std, 추론 재현 필수) |
-| `moe_final.pt` | MoE 가중치 (게이트 분석 재현용, 참고) |
+| `moe_final.pt` | MoE 가중치 (게이트 분석 재현용, 참고) **메인** |
 | `predict.py` | 추론 스크립트 (B5, **기본**) |
 | `predict_moe.py` | MoE 추론 (게이트 표시, 참고용) |
 
