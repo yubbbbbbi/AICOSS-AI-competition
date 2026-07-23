@@ -19,6 +19,7 @@ const els = {
   tcmPenaltyValue: document.getElementById("tcm-penalty-value"),
   tcmTriangle: document.getElementById("tcm-triangle"),
   tcmTrianglePoint: document.getElementById("tcm-triangle-point"),
+  tcmResetButton: document.getElementById("tcm-reset-button"),
   tcmTempValue: document.getElementById("tcm-temp-value"),
   tcmTasteValue: document.getElementById("tcm-taste-value"),
   tcmMeridianValue: document.getElementById("tcm-meridian-value"),
@@ -619,6 +620,10 @@ function initControls() {
   els.tcmPenaltyStrength.addEventListener("input", () => {
     state.tcmPenaltyStrength = Number(els.tcmPenaltyStrength.value);
     render();
+  });
+
+  els.tcmResetButton.addEventListener("click", () => {
+    setTcmWeights({ temp: 1, taste: 1, meridian: 1 });
   });
 
   initTriangleControl();

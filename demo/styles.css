@@ -35,6 +35,10 @@ input {
   font: inherit;
 }
 
+button {
+  cursor: pointer;
+}
+
 .app-shell {
   width: min(1500px, calc(100% - 40px));
   margin: 0 auto;
@@ -194,6 +198,23 @@ input[type="range"] {
 .triangle-copy strong {
   color: var(--text);
   font-size: 14px;
+}
+
+.mini-reset {
+  width: fit-content;
+  margin-top: 3px;
+  border: 1px solid rgba(23, 23, 23, 0.12);
+  border-radius: 999px;
+  padding: 4px 8px;
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.mini-reset:hover {
+  border-color: rgba(123, 67, 216, 0.32);
+  color: var(--tcm);
 }
 
 .tcm-triangle {
