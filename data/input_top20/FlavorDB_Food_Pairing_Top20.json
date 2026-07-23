@@ -1,0 +1,1150 @@
+{
+  "대추": [
+    {
+      "rank": 1,
+      "ingredient": "빵"
+    },
+    {
+      "rank": 2,
+      "ingredient": "보리"
+    },
+    {
+      "rank": 3,
+      "ingredient": "귀리"
+    },
+    {
+      "rank": 4,
+      "ingredient": "쌀"
+    },
+    {
+      "rank": 5,
+      "ingredient": "옥수수"
+    },
+    {
+      "rank": 6,
+      "ingredient": "레몬그라스"
+    },
+    {
+      "rank": 7,
+      "ingredient": "켈프"
+    },
+    {
+      "rank": 8,
+      "ingredient": "아티초크"
+    },
+    {
+      "rank": 9,
+      "ingredient": "사과"
+    },
+    {
+      "rank": 10,
+      "ingredient": "살구"
+    },
+    {
+      "rank": 11,
+      "ingredient": "아보카도"
+    },
+    {
+      "rank": 12,
+      "ingredient": "바나나"
+    },
+    {
+      "rank": 13,
+      "ingredient": "체리모야"
+    },
+    {
+      "rank": 14,
+      "ingredient": "코코넛"
+    },
+    {
+      "rank": 15,
+      "ingredient": "블랙커런트"
+    },
+    {
+      "rank": 16,
+      "ingredient": "레드커런트"
+    },
+    {
+      "rank": 17,
+      "ingredient": "대추야자"
+    },
+    {
+      "rank": 18,
+      "ingredient": "두리안"
+    },
+    {
+      "rank": 19,
+      "ingredient": "엘더베리"
+    },
+    {
+      "rank": 20,
+      "ingredient": "페이조아"
+    }
+  ],
+  "당귀": [
+    {
+      "rank": 1,
+      "ingredient": "스피어민트"
+    },
+    {
+      "rank": 2,
+      "ingredient": "차"
+    },
+    {
+      "rank": 3,
+      "ingredient": "파슬리"
+    },
+    {
+      "rank": 4,
+      "ingredient": "망고"
+    },
+    {
+      "rank": 5,
+      "ingredient": "고수"
+    },
+    {
+      "rank": 6,
+      "ingredient": "로즈마리"
+    },
+    {
+      "rank": 7,
+      "ingredient": "육두구"
+    },
+    {
+      "rank": 8,
+      "ingredient": "토마토"
+    },
+    {
+      "rank": 9,
+      "ingredient": "러비지"
+    },
+    {
+      "rank": 10,
+      "ingredient": "살구"
+    },
+    {
+      "rank": 11,
+      "ingredient": "블랙커런트"
+    },
+    {
+      "rank": 12,
+      "ingredient": "오렌지"
+    },
+    {
+      "rank": 13,
+      "ingredient": "빌베리"
+    },
+    {
+      "rank": 14,
+      "ingredient": "레몬"
+    },
+    {
+      "rank": 15,
+      "ingredient": "딜"
+    },
+    {
+      "rank": 16,
+      "ingredient": "타임"
+    },
+    {
+      "rank": 17,
+      "ingredient": "셀러리"
+    },
+    {
+      "rank": 18,
+      "ingredient": "커민"
+    },
+    {
+      "rank": 19,
+      "ingredient": "생강"
+    },
+    {
+      "rank": 20,
+      "ingredient": "당근"
+    }
+  ],
+  "월계수": [
+    {
+      "rank": 1,
+      "ingredient": "후추"
+    },
+    {
+      "rank": 2,
+      "ingredient": "바질"
+    },
+    {
+      "rank": 3,
+      "ingredient": "생강"
+    },
+    {
+      "rank": 4,
+      "ingredient": "로즈마리"
+    },
+    {
+      "rank": 5,
+      "ingredient": "오레가노"
+    },
+    {
+      "rank": 6,
+      "ingredient": "스피어민트"
+    },
+    {
+      "rank": 7,
+      "ingredient": "마조람"
+    },
+    {
+      "rank": 8,
+      "ingredient": "육두구"
+    },
+    {
+      "rank": 9,
+      "ingredient": "오렌지"
+    },
+    {
+      "rank": 10,
+      "ingredient": "딜"
+    },
+    {
+      "rank": 11,
+      "ingredient": "시나몬"
+    },
+    {
+      "rank": 12,
+      "ingredient": "올스파이스"
+    },
+    {
+      "rank": 13,
+      "ingredient": "히솝 오일"
+    },
+    {
+      "rank": 14,
+      "ingredient": "블랙커런트"
+    },
+    {
+      "rank": 15,
+      "ingredient": "레몬"
+    },
+    {
+      "rank": 16,
+      "ingredient": "고수"
+    },
+    {
+      "rank": 17,
+      "ingredient": "차"
+    },
+    {
+      "rank": 18,
+      "ingredient": "만다린 오렌지"
+    },
+    {
+      "rank": 19,
+      "ingredient": "셀러리"
+    },
+    {
+      "rank": 20,
+      "ingredient": "당근"
+    }
+  ],
+  "우엉": [
+    {
+      "rank": 1,
+      "ingredient": "월계수"
+    },
+    {
+      "rank": 2,
+      "ingredient": "셀러리"
+    },
+    {
+      "rank": 3,
+      "ingredient": "구아바"
+    },
+    {
+      "rank": 4,
+      "ingredient": "차"
+    },
+    {
+      "rank": 5,
+      "ingredient": "페퍼민트"
+    },
+    {
+      "rank": 6,
+      "ingredient": "쌀"
+    },
+    {
+      "rank": 7,
+      "ingredient": "사과"
+    },
+    {
+      "rank": 8,
+      "ingredient": "블랙커런트"
+    },
+    {
+      "rank": 9,
+      "ingredient": "망고"
+    },
+    {
+      "rank": 10,
+      "ingredient": "파파야"
+    },
+    {
+      "rank": 11,
+      "ingredient": "패션프루트"
+    },
+    {
+      "rank": 12,
+      "ingredient": "자두"
+    },
+    {
+      "rank": 13,
+      "ingredient": "딸기"
+    },
+    {
+      "rank": 14,
+      "ingredient": "바질"
+    },
+    {
+      "rank": 15,
+      "ingredient": "스피어민트"
+    },
+    {
+      "rank": 16,
+      "ingredient": "오레가노"
+    },
+    {
+      "rank": 17,
+      "ingredient": "후추"
+    },
+    {
+      "rank": 18,
+      "ingredient": "고추"
+    },
+    {
+      "rank": 19,
+      "ingredient": "토마토"
+    },
+    {
+      "rank": 20,
+      "ingredient": "당근"
+    }
+  ],
+  "연꽃": [
+    {
+      "rank": 1,
+      "ingredient": "망고"
+    },
+    {
+      "rank": 2,
+      "ingredient": "차"
+    },
+    {
+      "rank": 3,
+      "ingredient": "생강"
+    },
+    {
+      "rank": 4,
+      "ingredient": "멜론"
+    },
+    {
+      "rank": 5,
+      "ingredient": "고수"
+    },
+    {
+      "rank": 6,
+      "ingredient": "파파야"
+    },
+    {
+      "rank": 7,
+      "ingredient": "토마토"
+    },
+    {
+      "rank": 8,
+      "ingredient": "쌀"
+    },
+    {
+      "rank": 9,
+      "ingredient": "구아바"
+    },
+    {
+      "rank": 10,
+      "ingredient": "레몬밤"
+    },
+    {
+      "rank": 11,
+      "ingredient": "메밀"
+    },
+    {
+      "rank": 12,
+      "ingredient": "셀러리"
+    },
+    {
+      "rank": 13,
+      "ingredient": "카놀라유"
+    },
+    {
+      "rank": 14,
+      "ingredient": "사과"
+    },
+    {
+      "rank": 15,
+      "ingredient": "무화과"
+    },
+    {
+      "rank": 16,
+      "ingredient": "월계수"
+    },
+    {
+      "rank": 17,
+      "ingredient": "오레가노"
+    },
+    {
+      "rank": 18,
+      "ingredient": "고추"
+    },
+    {
+      "rank": 19,
+      "ingredient": "살구"
+    },
+    {
+      "rank": 20,
+      "ingredient": "코코넛"
+    }
+  ],
+  "회향": [
+    {
+      "rank": 1,
+      "ingredient": "딜"
+    },
+    {
+      "rank": 2,
+      "ingredient": "고수"
+    },
+    {
+      "rank": 3,
+      "ingredient": "후추"
+    },
+    {
+      "rank": 4,
+      "ingredient": "바질"
+    },
+    {
+      "rank": 5,
+      "ingredient": "로즈마리"
+    },
+    {
+      "rank": 6,
+      "ingredient": "셀러리"
+    },
+    {
+      "rank": 7,
+      "ingredient": "파슬리"
+    },
+    {
+      "rank": 8,
+      "ingredient": "월계수"
+    },
+    {
+      "rank": 9,
+      "ingredient": "시나몬"
+    },
+    {
+      "rank": 10,
+      "ingredient": "오레가노"
+    },
+    {
+      "rank": 11,
+      "ingredient": "당근"
+    },
+    {
+      "rank": 12,
+      "ingredient": "레몬"
+    },
+    {
+      "rank": 13,
+      "ingredient": "생강"
+    },
+    {
+      "rank": 14,
+      "ingredient": "육두구"
+    },
+    {
+      "rank": 15,
+      "ingredient": "아주완 씨앗"
+    },
+    {
+      "rank": 16,
+      "ingredient": "오렌지"
+    },
+    {
+      "rank": 17,
+      "ingredient": "팔각"
+    },
+    {
+      "rank": 18,
+      "ingredient": "마조람"
+    },
+    {
+      "rank": 19,
+      "ingredient": "블랙커런트"
+    },
+    {
+      "rank": 20,
+      "ingredient": "만다린 오렌지"
+    }
+  ],
+  "칡": [
+    {
+      "rank": 1,
+      "ingredient": "귀리"
+    },
+    {
+      "rank": 2,
+      "ingredient": "쌀"
+    },
+    {
+      "rank": 3,
+      "ingredient": "옥수수"
+    },
+    {
+      "rank": 4,
+      "ingredient": "사과"
+    },
+    {
+      "rank": 5,
+      "ingredient": "살구"
+    },
+    {
+      "rank": 6,
+      "ingredient": "대추야자"
+    },
+    {
+      "rank": 7,
+      "ingredient": "무화과"
+    },
+    {
+      "rank": 8,
+      "ingredient": "포도"
+    },
+    {
+      "rank": 9,
+      "ingredient": "구아바"
+    },
+    {
+      "rank": 10,
+      "ingredient": "망고"
+    },
+    {
+      "rank": 11,
+      "ingredient": "블루베리"
+    },
+    {
+      "rank": 12,
+      "ingredient": "쓴체리"
+    },
+    {
+      "rank": 13,
+      "ingredient": "사워체리"
+    },
+    {
+      "rank": 14,
+      "ingredient": "크랜베리"
+    },
+    {
+      "rank": 15,
+      "ingredient": "링곤베리"
+    },
+    {
+      "rank": 16,
+      "ingredient": "딸기"
+    },
+    {
+      "rank": 17,
+      "ingredient": "자몽"
+    },
+    {
+      "rank": 18,
+      "ingredient": "바질"
+    },
+    {
+      "rank": 19,
+      "ingredient": "메밀"
+    },
+    {
+      "rank": 20,
+      "ingredient": "고수"
+    }
+  ],
+  "생강": [
+    {
+      "rank": 1,
+      "ingredient": "후추"
+    },
+    {
+      "rank": 2,
+      "ingredient": "로즈마리"
+    },
+    {
+      "rank": 3,
+      "ingredient": "차"
+    },
+    {
+      "rank": 4,
+      "ingredient": "오레가노"
+    },
+    {
+      "rank": 5,
+      "ingredient": "바질"
+    },
+    {
+      "rank": 6,
+      "ingredient": "오렌지"
+    },
+    {
+      "rank": 7,
+      "ingredient": "월계수"
+    },
+    {
+      "rank": 8,
+      "ingredient": "구아바"
+    },
+    {
+      "rank": 9,
+      "ingredient": "마조람"
+    },
+    {
+      "rank": 10,
+      "ingredient": "육두구"
+    },
+    {
+      "rank": 11,
+      "ingredient": "만다린 오렌지"
+    },
+    {
+      "rank": 12,
+      "ingredient": "스피어민트"
+    },
+    {
+      "rank": 13,
+      "ingredient": "카다멈"
+    },
+    {
+      "rank": 14,
+      "ingredient": "딜"
+    },
+    {
+      "rank": 15,
+      "ingredient": "레몬"
+    },
+    {
+      "rank": 16,
+      "ingredient": "시나몬"
+    },
+    {
+      "rank": 17,
+      "ingredient": "블랙커런트"
+    },
+    {
+      "rank": 18,
+      "ingredient": "고수"
+    },
+    {
+      "rank": 19,
+      "ingredient": "셀러리"
+    },
+    {
+      "rank": 20,
+      "ingredient": "당근"
+    }
+  ],
+  "시나몬": [
+    {
+      "rank": 1,
+      "ingredient": "후추"
+    },
+    {
+      "rank": 2,
+      "ingredient": "월계수"
+    },
+    {
+      "rank": 3,
+      "ingredient": "생강"
+    },
+    {
+      "rank": 4,
+      "ingredient": "바질"
+    },
+    {
+      "rank": 5,
+      "ingredient": "로즈마리"
+    },
+    {
+      "rank": 6,
+      "ingredient": "육두구"
+    },
+    {
+      "rank": 7,
+      "ingredient": "오레가노"
+    },
+    {
+      "rank": 8,
+      "ingredient": "카시아"
+    },
+    {
+      "rank": 9,
+      "ingredient": "차"
+    },
+    {
+      "rank": 10,
+      "ingredient": "고수"
+    },
+    {
+      "rank": 11,
+      "ingredient": "딜"
+    },
+    {
+      "rank": 12,
+      "ingredient": "셀러리"
+    },
+    {
+      "rank": 13,
+      "ingredient": "마조람"
+    },
+    {
+      "rank": 14,
+      "ingredient": "오렌지"
+    },
+    {
+      "rank": 15,
+      "ingredient": "정향"
+    },
+    {
+      "rank": 16,
+      "ingredient": "당근"
+    },
+    {
+      "rank": 17,
+      "ingredient": "히솝 오일"
+    },
+    {
+      "rank": 18,
+      "ingredient": "스피어민트"
+    },
+    {
+      "rank": 19,
+      "ingredient": "커민"
+    },
+    {
+      "rank": 20,
+      "ingredient": "블랙커런트"
+    }
+  ],
+  "팔각": [
+    {
+      "rank": 1,
+      "ingredient": "후추"
+    },
+    {
+      "rank": 2,
+      "ingredient": "생강"
+    },
+    {
+      "rank": 3,
+      "ingredient": "월계수"
+    },
+    {
+      "rank": 4,
+      "ingredient": "바질"
+    },
+    {
+      "rank": 5,
+      "ingredient": "로즈마리"
+    },
+    {
+      "rank": 6,
+      "ingredient": "딜"
+    },
+    {
+      "rank": 7,
+      "ingredient": "육두구"
+    },
+    {
+      "rank": 8,
+      "ingredient": "시나몬"
+    },
+    {
+      "rank": 9,
+      "ingredient": "마조람"
+    },
+    {
+      "rank": 10,
+      "ingredient": "오레가노"
+    },
+    {
+      "rank": 11,
+      "ingredient": "커민"
+    },
+    {
+      "rank": 12,
+      "ingredient": "오렌지"
+    },
+    {
+      "rank": 13,
+      "ingredient": "레몬"
+    },
+    {
+      "rank": 14,
+      "ingredient": "아주완 씨앗"
+    },
+    {
+      "rank": 15,
+      "ingredient": "회향"
+    },
+    {
+      "rank": 16,
+      "ingredient": "스피어민트"
+    },
+    {
+      "rank": 17,
+      "ingredient": "파슬리"
+    },
+    {
+      "rank": 18,
+      "ingredient": "만다린 오렌지"
+    },
+    {
+      "rank": 19,
+      "ingredient": "올스파이스"
+    },
+    {
+      "rank": 20,
+      "ingredient": "세이지"
+    }
+  ],
+  "박하": [
+    {
+      "rank": 1,
+      "ingredient": "스피어민트"
+    },
+    {
+      "rank": 2,
+      "ingredient": "페퍼민트"
+    },
+    {
+      "rank": 3,
+      "ingredient": "생강"
+    },
+    {
+      "rank": 4,
+      "ingredient": "후추"
+    },
+    {
+      "rank": 5,
+      "ingredient": "로즈마리"
+    },
+    {
+      "rank": 6,
+      "ingredient": "오레가노"
+    },
+    {
+      "rank": 7,
+      "ingredient": "월계수"
+    },
+    {
+      "rank": 8,
+      "ingredient": "마조람"
+    },
+    {
+      "rank": 9,
+      "ingredient": "콘민트"
+    },
+    {
+      "rank": 10,
+      "ingredient": "바질"
+    },
+    {
+      "rank": 11,
+      "ingredient": "히솝 오일"
+    },
+    {
+      "rank": 12,
+      "ingredient": "오렌지"
+    },
+    {
+      "rank": 13,
+      "ingredient": "딜"
+    },
+    {
+      "rank": 14,
+      "ingredient": "셀러리"
+    },
+    {
+      "rank": 15,
+      "ingredient": "차"
+    },
+    {
+      "rank": 16,
+      "ingredient": "블랙커런트"
+    },
+    {
+      "rank": 17,
+      "ingredient": "만다린 오렌지"
+    },
+    {
+      "rank": 18,
+      "ingredient": "고수"
+    },
+    {
+      "rank": 19,
+      "ingredient": "세이지"
+    },
+    {
+      "rank": 20,
+      "ingredient": "레몬"
+    }
+  ],
+  "마": [
+    {
+      "rank": 1,
+      "ingredient": "빵"
+    },
+    {
+      "rank": 2,
+      "ingredient": "보리"
+    },
+    {
+      "rank": 3,
+      "ingredient": "귀리"
+    },
+    {
+      "rank": 4,
+      "ingredient": "쌀"
+    },
+    {
+      "rank": 5,
+      "ingredient": "옥수수"
+    },
+    {
+      "rank": 6,
+      "ingredient": "아티초크"
+    },
+    {
+      "rank": 7,
+      "ingredient": "사과"
+    },
+    {
+      "rank": 8,
+      "ingredient": "살구"
+    },
+    {
+      "rank": 9,
+      "ingredient": "아보카도"
+    },
+    {
+      "rank": 10,
+      "ingredient": "바나나"
+    },
+    {
+      "rank": 11,
+      "ingredient": "체리모야"
+    },
+    {
+      "rank": 12,
+      "ingredient": "코코넛"
+    },
+    {
+      "rank": 13,
+      "ingredient": "블랙커런트"
+    },
+    {
+      "rank": 14,
+      "ingredient": "레드커런트"
+    },
+    {
+      "rank": 15,
+      "ingredient": "대추야자"
+    },
+    {
+      "rank": 16,
+      "ingredient": "엘더베리"
+    },
+    {
+      "rank": 17,
+      "ingredient": "무화과"
+    },
+    {
+      "rank": 18,
+      "ingredient": "포도"
+    },
+    {
+      "rank": 19,
+      "ingredient": "구아바"
+    },
+    {
+      "rank": 20,
+      "ingredient": "키위"
+    }
+  ],
+  "강황": [
+    {
+      "rank": 1,
+      "ingredient": "생강"
+    },
+    {
+      "rank": 2,
+      "ingredient": "로즈마리"
+    },
+    {
+      "rank": 3,
+      "ingredient": "오레가노"
+    },
+    {
+      "rank": 4,
+      "ingredient": "후추"
+    },
+    {
+      "rank": 5,
+      "ingredient": "타임"
+    },
+    {
+      "rank": 6,
+      "ingredient": "당근"
+    },
+    {
+      "rank": 7,
+      "ingredient": "월계수"
+    },
+    {
+      "rank": 8,
+      "ingredient": "시나몬"
+    },
+    {
+      "rank": 9,
+      "ingredient": "마조람"
+    },
+    {
+      "rank": 10,
+      "ingredient": "고수"
+    },
+    {
+      "rank": 11,
+      "ingredient": "딜"
+    },
+    {
+      "rank": 12,
+      "ingredient": "회향"
+    },
+    {
+      "rank": 13,
+      "ingredient": "세이지"
+    },
+    {
+      "rank": 14,
+      "ingredient": "육두구"
+    },
+    {
+      "rank": 15,
+      "ingredient": "바질"
+    },
+    {
+      "rank": 16,
+      "ingredient": "커민"
+    },
+    {
+      "rank": 17,
+      "ingredient": "파슬리"
+    },
+    {
+      "rank": 18,
+      "ingredient": "히솝 오일"
+    },
+    {
+      "rank": 19,
+      "ingredient": "러비지"
+    },
+    {
+      "rank": 20,
+      "ingredient": "블랙커런트"
+    }
+  ],
+  "모과": [
+    {
+      "rank": 1,
+      "ingredient": "맥주"
+    },
+    {
+      "rank": 2,
+      "ingredient": "사과"
+    },
+    {
+      "rank": 3,
+      "ingredient": "코냑 브랜디"
+    },
+    {
+      "rank": 4,
+      "ingredient": "포도"
+    },
+    {
+      "rank": 5,
+      "ingredient": "차"
+    },
+    {
+      "rank": 6,
+      "ingredient": "딸기"
+    },
+    {
+      "rank": 7,
+      "ingredient": "럼"
+    },
+    {
+      "rank": 8,
+      "ingredient": "패션프루트"
+    },
+    {
+      "rank": 9,
+      "ingredient": "살구"
+    },
+    {
+      "rank": 10,
+      "ingredient": "버섯"
+    },
+    {
+      "rank": 11,
+      "ingredient": "파파야"
+    },
+    {
+      "rank": 12,
+      "ingredient": "셰리"
+    },
+    {
+      "rank": 13,
+      "ingredient": "블루치즈"
+    },
+    {
+      "rank": 14,
+      "ingredient": "체더치즈"
+    },
+    {
+      "rank": 15,
+      "ingredient": "스위스치즈"
+    },
+    {
+      "rank": 16,
+      "ingredient": "바나나"
+    },
+    {
+      "rank": 17,
+      "ingredient": "구아바"
+    },
+    {
+      "rank": 18,
+      "ingredient": "대두"
+    },
+    {
+      "rank": 19,
+      "ingredient": "토마토"
+    },
+    {
+      "rank": 20,
+      "ingredient": "화이트와인"
+    }
+  ]
+}

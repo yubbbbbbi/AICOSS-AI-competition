@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Three Expert Fusion Demo</title>
+    <link rel="stylesheet" href="./styles.css?v=20260723k" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Explainable herb pairing</p>
+          <h1>3-Expert Fusion 추천 모델</h1>
+          <p class="lead">
+            RecipeDB와 FlavorDB로 어울리는 후보를 찾고,
+            TCM Balance가 낮은 조합은 뒤로 미는 검색·재정렬 추천을 보여줍니다.
+          </p>
+        </div>
+        <div class="model-card" aria-label="모델 수식">
+          <span>fusion score</span>
+          <strong>Recipe/Flavor base score - TCM penalty</strong>
+          <small>TCM penalty = λ × (1 - weighted TCM balance) × coverage</small>
+          <a class="inline-link" href="./validation.html">LLM 검증 모델 보기</a>
+        </div>
+      </header>
+
+      <section class="control-panel" aria-label="추천 모델 제어">
+        <label class="select-field">
+          <span>약재</span>
+          <select id="herb-select"></select>
+        </label>
+
+        <div class="rerank-controls" aria-label="검색 및 재정렬 제어">
+          <label class="balance-slider">
+            <span class="slider-title">Recipe 중심 <b id="recipe-ratio-value">50%</b> Flavor 중심</span>
+            <input id="recipe-flavor-ratio" type="range" min="0" max="1" step="0.05" value="0.5" />
+          </label>
+          <label class="balance-slider">
+            <span class="slider-title">TCM 균형 필터 <b id="tcm-penalty-value">40%</b></span>
+            <span class="slider-ends"><i>없음</i><i>강함</i></span>
+            <input id="tcm-penalty-strength" type="range" min="0" max="1" step="0.05" value="0.4" />
+          </label>
+          <div class="tcm-triangle-card" aria-label="TCM 속성 가중치">
+            <div class="triangle-copy">
+              <span>TCM Balance 축</span>
+              <strong>온도 · 맛 · 귀경</strong>
+            </div>
+            <svg id="tcm-triangle" class="tcm-triangle" viewBox="0 0 180 150" role="img" aria-label="TCM 속성 가중치 삼각형">
+              <polygon points="90,18 24,130 156,130" class="triangle-plane"></polygon>
+              <line x1="90" y1="18" x2="24" y2="130" class="triangle-guide"></line>
+              <line x1="90" y1="18" x2="156" y2="130" class="triangle-guide"></line>
+              <line x1="24" y1="130" x2="156" y2="130" class="triangle-guide"></line>
+              <text x="90" y="10" text-anchor="middle">온도</text>
+              <text x="12" y="144" text-anchor="start">맛</text>
+              <text x="168" y="144" text-anchor="end">귀경</text>
+              <circle id="tcm-triangle-point" cx="90" cy="74" r="8"></circle>
+            </svg>
+            <div class="triangle-values">
+              <span>온도 <b id="tcm-temp-value">50%</b></span>
+              <span>맛 <b id="tcm-taste-value">25%</b></span>
+              <span>귀경 <b id="tcm-meridian-value">25%</b></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace">
+        <section class="network-card">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">live fusion network</p>
+              <h2 id="network-title">추천 근거 네트워크</h2>
+            </div>
+            <div class="legend">
+              <span><i class="recipe"></i>RecipeDB</span>
+              <span><i class="flavor"></i>FlavorDB</span>
+              <span><i class="tcm"></i>TCM Balance</span>
+              <span><i class="multi"></i>2개 이상</span>
+            </div>
+          </div>
+          <div class="canvas-wrap">
+            <svg id="fusion-network" viewBox="0 0 920 660" role="img" aria-label="약재 식재료 추천 근거 네트워크"></svg>
+          </div>
+        </section>
+
+        <aside class="ranking-card">
+          <div class="section-head compact">
+            <div>
+              <p class="eyebrow">final output</p>
+              <h2>Fusion Top20</h2>
+            </div>
+            <strong id="herb-name">-</strong>
+          </div>
+          <div class="metric-row">
+            <div>
+              <span>2개 이상 근거</span>
+              <strong id="consensus-count">0</strong>
+            </div>
+            <div>
+              <span>최고 점수</span>
+              <strong id="top-score">0.0</strong>
+            </div>
+          </div>
+          <ol id="ranking-list" class="ranking-list"></ol>
+        </aside>
+      </section>
+
+      <section class="detail-grid">
+        <article>
+          <p class="eyebrow">source contribution</p>
+          <h2>선택 결과의 근거 분해</h2>
+          <div id="contribution-list" class="contribution-list"></div>
+        </article>
+        <article>
+          <p class="eyebrow">demo message</p>
+          <h2>발표용 설명</h2>
+          <p class="demo-copy">
+            사용자는 조리 기록, 향미 분자, 한방 지식 중 어떤 근거를 더 신뢰할지 조절할 수 있습니다.
+            TCM은 온도·맛·귀경 축의 비중까지 조절하며, 모델은 그 가중치에 따라 최종 추천 순위와 근거 네트워크를 즉시 갱신합니다.
+          </p>
+        </article>
+      </section>
+
+      <section class="rag-reference-section">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">RAG reference</p>
+            <h2>실제 카페 메뉴와 전세계 레시피 레퍼런스</h2>
+          </div>
+          <div class="reference-summary" id="reference-summary"></div>
+        </div>
+        <div class="reference-grid">
+          <article class="reference-panel">
+            <div class="reference-title">
+              <span>네이버 실제 메뉴</span>
+              <b id="naver-count">0</b>
+            </div>
+            <div id="cafe-reference-list" class="cafe-reference-list"></div>
+          </article>
+          <article class="reference-panel">
+            <div class="reference-title">
+              <span>전세계 레시피</span>
+              <b id="recipe-ref-count">0</b>
+            </div>
+            <div id="recipe-reference-list" class="recipe-reference-list"></div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="./data/network-data.js?v=20260723k"></script>
+    <script src="./data/rag-reference-data.js?v=20260723k"></script>
+    <script src="./app.js?v=20260723k"></script>
+  </body>
+</html>

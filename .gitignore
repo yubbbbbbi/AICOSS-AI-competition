@@ -1,0 +1,18 @@
+.agents/
+.codex/
+
+# Local/runtime noise
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Presentation artifacts stay local.
+outputs/
+
+# Intermediate crawl/model outputs stay local. The deployed app uses demo/data.
+data/flavordb/
+data/llm/
+data/model/
+data/recipedb/
+data/recipedb_10plus/

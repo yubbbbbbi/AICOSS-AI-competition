@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LLM Explainability Validation</title>
+    <link rel="stylesheet" href="./styles.css?v=20260723e" />
+    <link rel="stylesheet" href="./validation.css?v=20260723a" />
+  </head>
+  <body>
+    <main class="app-shell validation-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">LLM explainability validation</p>
+          <h1>LLM 추천 근거 검증 모델</h1>
+          <p class="lead">
+            LLM Top20 라벨을 정답처럼 쓰는 것이 아니라, 조리·향미·한방 feature만으로
+            LLM 추천 여부가 얼마나 설명 가능한지 확인하는 보조 실험입니다.
+          </p>
+        </div>
+        <nav class="page-nav" aria-label="페이지 이동">
+          <a href="./index.html">Fusion 추천</a>
+          <strong>검증 모델</strong>
+        </nav>
+      </header>
+
+      <section class="validation-grid">
+        <article class="model-flow">
+          <div class="flow-block source">
+            <span>Input</span>
+            <strong>9 features + 3 masks</strong>
+            <small>RecipeDB / FlavorDB / TCM-MKG</small>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-block model">
+            <span>Model</span>
+            <strong>ConcatMLP</strong>
+            <small>12 → 48 → 24 → 3</small>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-block output">
+            <span>Output</span>
+            <strong>LLM label probabilities</strong>
+            <small>Claude / Llama / GPT</small>
+          </div>
+        </article>
+
+        <article class="stat-board">
+          <div class="stat-tile">
+            <span>전체 쌍</span>
+            <strong id="total-pairs">-</strong>
+          </div>
+          <div class="stat-tile">
+            <span>학습 가능 쌍</span>
+            <strong id="train-pairs">-</strong>
+          </div>
+          <div class="stat-tile">
+            <span>LLM positive</span>
+            <strong id="positive-pairs">-</strong>
+          </div>
+          <div class="stat-tile">
+            <span>근거 없음</span>
+            <strong id="excluded-pairs">-</strong>
+          </div>
+        </article>
+      </section>
+
+      <section class="validation-main">
+        <article class="chart-card">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">coverage</p>
+              <h2>세 expert 축의 커버리지</h2>
+            </div>
+            <span class="caption">전체 쌍 대비 / LLM positive 쌍 대비</span>
+          </div>
+          <div id="coverage-chart" class="coverage-chart"></div>
+        </article>
+
+        <article class="chart-card">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">labels</p>
+              <h2>LLM 라벨 분포</h2>
+            </div>
+          </div>
+          <div id="label-chart" class="label-chart"></div>
+        </article>
+      </section>
+
+      <section class="validation-main">
+        <article class="chart-card wide-card">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">axis availability</p>
+              <h2>축 조합별 데이터 분포</h2>
+            </div>
+            <span class="caption">cook / flavor / prop mask 조합</span>
+          </div>
+          <div id="combo-chart" class="combo-chart"></div>
+        </article>
+      </section>
+
+      <section class="candidate-explorer">
+        <div class="explorer-head">
+          <div>
+            <p class="eyebrow">herb detail</p>
+            <h2>약재별 LLM 라벨과 expert 근거</h2>
+          </div>
+          <label>
+            <span>약재</span>
+            <select id="validation-herb"></select>
+          </label>
+        </div>
+
+        <div class="herb-summary">
+          <div><span>positive</span><strong id="herb-positive">-</strong></div>
+          <div><span>2 LLM 이상</span><strong id="herb-two-plus">-</strong></div>
+          <div><span>3 LLM 공통</span><strong id="herb-all-three">-</strong></div>
+          <div><span>활성 근거</span><strong id="herb-active">-</strong></div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="validation-table">
+            <thead>
+              <tr>
+                <th>candidate</th>
+                <th>LLM</th>
+                <th>axes</th>
+                <th>cook</th>
+                <th>flavor</th>
+                <th>TCM</th>
+              </tr>
+            </thead>
+            <tbody id="candidate-tbody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="./validation.js?v=20260723a"></script>
+  </body>
+</html>

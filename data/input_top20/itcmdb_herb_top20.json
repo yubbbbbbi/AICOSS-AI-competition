@@ -1,0 +1,1111 @@
+[
+  {
+    "herb": "대추",
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "생강"
+      },
+      {
+        "rank": 2,
+        "ingredient": "당삼"
+      },
+      {
+        "rank": 3,
+        "ingredient": "부소맥"
+      },
+      {
+        "rank": 4,
+        "ingredient": "자감초"
+      },
+      {
+        "rank": 5,
+        "ingredient": "용안육"
+      },
+      {
+        "rank": 6,
+        "ingredient": "소맥"
+      },
+      {
+        "rank": 7,
+        "ingredient": "이당"
+      },
+      {
+        "rank": 8,
+        "ingredient": "작약"
+      },
+      {
+        "rank": 9,
+        "ingredient": "자황기"
+      },
+      {
+        "rank": 10,
+        "ingredient": "대두황권"
+      },
+      {
+        "rank": 11,
+        "ingredient": "원지"
+      },
+      {
+        "rank": 12,
+        "ingredient": "야교등"
+      },
+      {
+        "rank": 13,
+        "ingredient": "산맥동"
+      },
+      {
+        "rank": 14,
+        "ingredient": "복령"
+      },
+      {
+        "rank": 15,
+        "ingredient": "녹반"
+      },
+      {
+        "rank": 16,
+        "ingredient": "감초"
+      },
+      {
+        "rank": 17,
+        "ingredient": "강반하"
+      },
+      {
+        "rank": 18,
+        "ingredient": "갱미"
+      },
+      {
+        "rank": 19,
+        "ingredient": "맥문동"
+      },
+      {
+        "rank": 20,
+        "ingredient": "호도인"
+      }
+    ]
+  },
+  {
+    "herb": "당귀",
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "천궁"
+      },
+      {
+        "rank": 2,
+        "ingredient": "백작약"
+      },
+      {
+        "rank": 3,
+        "ingredient": "숙지황"
+      },
+      {
+        "rank": 4,
+        "ingredient": "황기"
+      },
+      {
+        "rank": 5,
+        "ingredient": "적작약"
+      },
+      {
+        "rank": 6,
+        "ingredient": "건지황"
+      },
+      {
+        "rank": 7,
+        "ingredient": "홍화"
+      },
+      {
+        "rank": 8,
+        "ingredient": "우슬"
+      },
+      {
+        "rank": 9,
+        "ingredient": "인삼"
+      },
+      {
+        "rank": 10,
+        "ingredient": "백출"
+      },
+      {
+        "rank": 11,
+        "ingredient": "도인"
+      },
+      {
+        "rank": 12,
+        "ingredient": "작약"
+      },
+      {
+        "rank": 13,
+        "ingredient": "속단"
+      },
+      {
+        "rank": 14,
+        "ingredient": "백지"
+      },
+      {
+        "rank": 15,
+        "ingredient": "목단피"
+      },
+      {
+        "rank": 16,
+        "ingredient": "복령"
+      },
+      {
+        "rank": 17,
+        "ingredient": "육계"
+      },
+      {
+        "rank": 18,
+        "ingredient": "방풍"
+      },
+      {
+        "rank": 19,
+        "ingredient": "감초"
+      },
+      {
+        "rank": 20,
+        "ingredient": "강활"
+      }
+    ]
+  },
+  {
+    "herb": "월계수",
+    "ingredients": []
+  },
+  {
+    "herb": "우엉",
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "연교"
+      },
+      {
+        "rank": 2,
+        "ingredient": "형개수"
+      },
+      {
+        "rank": 3,
+        "ingredient": "담두시"
+      },
+      {
+        "rank": 4,
+        "ingredient": "금은화"
+      },
+      {
+        "rank": 5,
+        "ingredient": "담죽엽"
+      },
+      {
+        "rank": 6,
+        "ingredient": "박하"
+      },
+      {
+        "rank": 7,
+        "ingredient": "길경"
+      },
+      {
+        "rank": 8,
+        "ingredient": "현삼"
+      },
+      {
+        "rank": 9,
+        "ingredient": "선퇴"
+      },
+      {
+        "rank": 10,
+        "ingredient": "정류"
+      },
+      {
+        "rank": 11,
+        "ingredient": "방풍"
+      },
+      {
+        "rank": 12,
+        "ingredient": "대청엽"
+      },
+      {
+        "rank": 13,
+        "ingredient": "목통"
+      },
+      {
+        "rank": 14,
+        "ingredient": "자초"
+      },
+      {
+        "rank": 15,
+        "ingredient": "승마"
+      },
+      {
+        "rank": 16,
+        "ingredient": "마발"
+      },
+      {
+        "rank": 17,
+        "ingredient": "수우각"
+      },
+      {
+        "rank": 18,
+        "ingredient": "노근"
+      },
+      {
+        "rank": 19,
+        "ingredient": "감초"
+      },
+      {
+        "rank": 20,
+        "ingredient": "만형자"
+      }
+    ]
+  },
+  {
+    "herb": "연꽃",
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "검실"
+      },
+      {
+        "rank": 2,
+        "ingredient": "백편두"
+      },
+      {
+        "rank": 3,
+        "ingredient": "산약"
+      },
+      {
+        "rank": 4,
+        "ingredient": "의이인"
+      },
+      {
+        "rank": 5,
+        "ingredient": "사인"
+      },
+      {
+        "rank": 6,
+        "ingredient": "복령"
+      },
+      {
+        "rank": 7,
+        "ingredient": "연수"
+      },
+      {
+        "rank": 8,
+        "ingredient": "편두"
+      },
+      {
+        "rank": 9,
+        "ingredient": "초신곡"
+      },
+      {
+        "rank": 10,
+        "ingredient": "맥아"
+      },
+      {
+        "rank": 11,
+        "ingredient": "사원자"
+      },
+      {
+        "rank": 12,
+        "ingredient": "당삼"
+      },
+      {
+        "rank": 13,
+        "ingredient": "산다"
+      },
+      {
+        "rank": 14,
+        "ingredient": "금앵자"
+      },
+      {
+        "rank": 15,
+        "ingredient": "토사자"
+      },
+      {
+        "rank": 16,
+        "ingredient": "곡아"
+      },
+      {
+        "rank": 17,
+        "ingredient": "용안육"
+      },
+      {
+        "rank": 18,
+        "ingredient": "산사"
+      },
+      {
+        "rank": 19,
+        "ingredient": "백출"
+      },
+      {
+        "rank": 20,
+        "ingredient": "북사삼"
+      }
+    ]
+  },
+  {
+    "herb": "회향",
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "보골지"
+      },
+      {
+        "rank": 2,
+        "ingredient": "호로파"
+      },
+      {
+        "rank": 3,
+        "ingredient": "천련자"
+      },
+      {
+        "rank": 4,
+        "ingredient": "연호색"
+      },
+      {
+        "rank": 5,
+        "ingredient": "여지핵"
+      },
+      {
+        "rank": 6,
+        "ingredient": "사인"
+      },
+      {
+        "rank": 7,
+        "ingredient": "두충"
+      },
+      {
+        "rank": 8,
+        "ingredient": "귤핵"
+      },
+      {
+        "rank": 9,
+        "ingredient": "복분자"
+      },
+      {
+        "rank": 10,
+        "ingredient": "토사자"
+      },
+      {
+        "rank": 11,
+        "ingredient": "쇄양"
+      },
+      {
+        "rank": 12,
+        "ingredient": "육종용"
+      },
+      {
+        "rank": 13,
+        "ingredient": "육계"
+      },
+      {
+        "rank": 14,
+        "ingredient": "녹용"
+      },
+      {
+        "rank": 15,
+        "ingredient": "향부자"
+      },
+      {
+        "rank": 16,
+        "ingredient": "파극천"
+      },
+      {
+        "rank": 17,
+        "ingredient": "산약"
+      },
+      {
+        "rank": 18,
+        "ingredient": "모정향"
+      },
+      {
+        "rank": 19,
+        "ingredient": "해마"
+      },
+      {
+        "rank": 20,
+        "ingredient": "팔각회향"
+      }
+    ]
+  },
+  {
+    "herb": "칡",
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "승마"
+      },
+      {
+        "rank": 2,
+        "ingredient": "석고"
+      },
+      {
+        "rank": 3,
+        "ingredient": "마황"
+      },
+      {
+        "rank": 4,
+        "ingredient": "시호"
+      },
+      {
+        "rank": 5,
+        "ingredient": "감초"
+      },
+      {
+        "rank": 6,
+        "ingredient": "정류"
+      },
+      {
+        "rank": 7,
+        "ingredient": "전호"
+      },
+      {
+        "rank": 8,
+        "ingredient": "황금"
+      },
+      {
+        "rank": 9,
+        "ingredient": "강활"
+      },
+      {
+        "rank": 10,
+        "ingredient": "천화분"
+      },
+      {
+        "rank": 11,
+        "ingredient": "방풍"
+      },
+      {
+        "rank": 12,
+        "ingredient": "자소엽"
+      },
+      {
+        "rank": 13,
+        "ingredient": "지모"
+      },
+      {
+        "rank": 14,
+        "ingredient": "적작약"
+      },
+      {
+        "rank": 15,
+        "ingredient": "형개수"
+      },
+      {
+        "rank": 16,
+        "ingredient": "길경"
+      },
+      {
+        "rank": 17,
+        "ingredient": "기사"
+      },
+      {
+        "rank": 18,
+        "ingredient": "현삼"
+      },
+      {
+        "rank": 19,
+        "ingredient": "맥문동"
+      },
+      {
+        "rank": 20,
+        "ingredient": "양두첨"
+      }
+    ]
+  },
+  {
+    "herb": "생강",
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "대추"
+      },
+      {
+        "rank": 2,
+        "ingredient": "귤피"
+      },
+      {
+        "rank": 3,
+        "ingredient": "반하"
+      },
+      {
+        "rank": 4,
+        "ingredient": "이당"
+      },
+      {
+        "rank": 5,
+        "ingredient": "죽력"
+      },
+      {
+        "rank": 6,
+        "ingredient": "작약"
+      },
+      {
+        "rank": 7,
+        "ingredient": "총백"
+      },
+      {
+        "rank": 8,
+        "ingredient": "자감초"
+      },
+      {
+        "rank": 9,
+        "ingredient": "연근"
+      },
+      {
+        "rank": 10,
+        "ingredient": "강반하"
+      },
+      {
+        "rank": 11,
+        "ingredient": "감초"
+      },
+      {
+        "rank": 12,
+        "ingredient": "복령"
+      },
+      {
+        "rank": 13,
+        "ingredient": "자소엽"
+      },
+      {
+        "rank": 14,
+        "ingredient": "건지황"
+      },
+      {
+        "rank": 15,
+        "ingredient": "해백"
+      },
+      {
+        "rank": 16,
+        "ingredient": "진피"
+      },
+      {
+        "rank": 17,
+        "ingredient": "양육"
+      },
+      {
+        "rank": 18,
+        "ingredient": "죽여"
+      },
+      {
+        "rank": 19,
+        "ingredient": "총즙"
+      },
+      {
+        "rank": 20,
+        "ingredient": "소맥"
+      }
+    ]
+  },
+  {
+    "herb": "시나몬",
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "부자"
+      },
+      {
+        "rank": 2,
+        "ingredient": "당귀"
+      },
+      {
+        "rank": 3,
+        "ingredient": "건강"
+      },
+      {
+        "rank": 4,
+        "ingredient": "두구"
+      },
+      {
+        "rank": 5,
+        "ingredient": "소회향"
+      },
+      {
+        "rank": 6,
+        "ingredient": "정향"
+      },
+      {
+        "rank": 7,
+        "ingredient": "백출"
+      },
+      {
+        "rank": 8,
+        "ingredient": "천궁"
+      },
+      {
+        "rank": 9,
+        "ingredient": "인삼"
+      },
+      {
+        "rank": 10,
+        "ingredient": "숙지황"
+      },
+      {
+        "rank": 11,
+        "ingredient": "고량강"
+      },
+      {
+        "rank": 12,
+        "ingredient": "마황"
+      },
+      {
+        "rank": 13,
+        "ingredient": "우슬"
+      },
+      {
+        "rank": 14,
+        "ingredient": "세신"
+      },
+      {
+        "rank": 15,
+        "ingredient": "목향"
+      },
+      {
+        "rank": 16,
+        "ingredient": "해마"
+      },
+      {
+        "rank": 17,
+        "ingredient": "두충"
+      },
+      {
+        "rank": 18,
+        "ingredient": "복령"
+      },
+      {
+        "rank": 19,
+        "ingredient": "침향"
+      },
+      {
+        "rank": 20,
+        "ingredient": "백지"
+      }
+    ]
+  },
+  {
+    "herb": "팔각",
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "고련자"
+      },
+      {
+        "rank": 2,
+        "ingredient": "필징가"
+      },
+      {
+        "rank": 3,
+        "ingredient": "호로파"
+      },
+      {
+        "rank": 4,
+        "ingredient": "여지핵"
+      },
+      {
+        "rank": 5,
+        "ingredient": "보골지"
+      },
+      {
+        "rank": 6,
+        "ingredient": "침향"
+      },
+      {
+        "rank": 7,
+        "ingredient": "소회향"
+      },
+      {
+        "rank": 8,
+        "ingredient": "목향"
+      },
+      {
+        "rank": 9,
+        "ingredient": "청피"
+      },
+      {
+        "rank": 10,
+        "ingredient": "아위"
+      },
+      {
+        "rank": 11,
+        "ingredient": "파극천"
+      },
+      {
+        "rank": 12,
+        "ingredient": "부자"
+      },
+      {
+        "rank": 13,
+        "ingredient": "정향"
+      },
+      {
+        "rank": 14,
+        "ingredient": "육종용"
+      },
+      {
+        "rank": 15,
+        "ingredient": "뇨사"
+      },
+      {
+        "rank": 16,
+        "ingredient": "빈랑"
+      },
+      {
+        "rank": 17,
+        "ingredient": "귤핵"
+      },
+      {
+        "rank": 18,
+        "ingredient": "안식향"
+      },
+      {
+        "rank": 19,
+        "ingredient": "아출"
+      },
+      {
+        "rank": 20,
+        "ingredient": "홍두구"
+      }
+    ]
+  },
+  {
+    "herb": "박하",
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "연교"
+      },
+      {
+        "rank": 2,
+        "ingredient": "형개수"
+      },
+      {
+        "rank": 3,
+        "ingredient": "길경"
+      },
+      {
+        "rank": 4,
+        "ingredient": "항국"
+      },
+      {
+        "rank": 5,
+        "ingredient": "우방자"
+      },
+      {
+        "rank": 6,
+        "ingredient": "고행인"
+      },
+      {
+        "rank": 7,
+        "ingredient": "담죽엽"
+      },
+      {
+        "rank": 8,
+        "ingredient": "백강잠"
+      },
+      {
+        "rank": 9,
+        "ingredient": "금은화"
+      },
+      {
+        "rank": 10,
+        "ingredient": "자소엽"
+      },
+      {
+        "rank": 11,
+        "ingredient": "방풍"
+      },
+      {
+        "rank": 12,
+        "ingredient": "담두시"
+      },
+      {
+        "rank": 13,
+        "ingredient": "치자"
+      },
+      {
+        "rank": 14,
+        "ingredient": "강활"
+      },
+      {
+        "rank": 15,
+        "ingredient": "백지"
+      },
+      {
+        "rank": 16,
+        "ingredient": "선퇴"
+      },
+      {
+        "rank": 17,
+        "ingredient": "노근"
+      },
+      {
+        "rank": 18,
+        "ingredient": "상엽"
+      },
+      {
+        "rank": 19,
+        "ingredient": "천패모"
+      },
+      {
+        "rank": 20,
+        "ingredient": "황금"
+      }
+    ]
+  },
+  {
+    "herb": "마",
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "산수유"
+      },
+      {
+        "rank": 2,
+        "ingredient": "숙지황"
+      },
+      {
+        "rank": 3,
+        "ingredient": "검실"
+      },
+      {
+        "rank": 4,
+        "ingredient": "연자육"
+      },
+      {
+        "rank": 5,
+        "ingredient": "복령"
+      },
+      {
+        "rank": 6,
+        "ingredient": "택사"
+      },
+      {
+        "rank": 7,
+        "ingredient": "토사자"
+      },
+      {
+        "rank": 8,
+        "ingredient": "목단피"
+      },
+      {
+        "rank": 9,
+        "ingredient": "두충"
+      },
+      {
+        "rank": 10,
+        "ingredient": "육종용"
+      },
+      {
+        "rank": 11,
+        "ingredient": "오미자"
+      },
+      {
+        "rank": 12,
+        "ingredient": "파극천"
+      },
+      {
+        "rank": 13,
+        "ingredient": "당삼"
+      },
+      {
+        "rank": 14,
+        "ingredient": "복분자"
+      },
+      {
+        "rank": 15,
+        "ingredient": "백편두"
+      },
+      {
+        "rank": 16,
+        "ingredient": "구기자"
+      },
+      {
+        "rank": 17,
+        "ingredient": "보골지"
+      },
+      {
+        "rank": 18,
+        "ingredient": "녹용"
+      },
+      {
+        "rank": 19,
+        "ingredient": "원지"
+      },
+      {
+        "rank": 20,
+        "ingredient": "우슬"
+      }
+    ]
+  },
+  {
+    "herb": "강황",
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "개자"
+      },
+      {
+        "rank": 2,
+        "ingredient": "연호색"
+      },
+      {
+        "rank": 3,
+        "ingredient": "골쇄보"
+      },
+      {
+        "rank": 4,
+        "ingredient": "양두첨"
+      },
+      {
+        "rank": 5,
+        "ingredient": "소목"
+      },
+      {
+        "rank": 6,
+        "ingredient": "청피"
+      },
+      {
+        "rank": 7,
+        "ingredient": "감송향"
+      },
+      {
+        "rank": 8,
+        "ingredient": "북유기노"
+      },
+      {
+        "rank": 9,
+        "ingredient": "오약"
+      },
+      {
+        "rank": 10,
+        "ingredient": "위령선"
+      },
+      {
+        "rank": 11,
+        "ingredient": "단향"
+      },
+      {
+        "rank": 12,
+        "ingredient": "아출"
+      },
+      {
+        "rank": 13,
+        "ingredient": "홍화"
+      },
+      {
+        "rank": 14,
+        "ingredient": "두구"
+      },
+      {
+        "rank": 15,
+        "ingredient": "요료초"
+      },
+      {
+        "rank": 16,
+        "ingredient": "장뇌"
+      },
+      {
+        "rank": 17,
+        "ingredient": "삼릉"
+      },
+      {
+        "rank": 18,
+        "ingredient": "주사근"
+      },
+      {
+        "rank": 19,
+        "ingredient": "포황"
+      },
+      {
+        "rank": 20,
+        "ingredient": "백두구"
+      }
+    ]
+  },
+  {
+    "herb": "모과",
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "천우슬"
+      },
+      {
+        "rank": 2,
+        "ingredient": "지풍피"
+      },
+      {
+        "rank": 3,
+        "ingredient": "우슬"
+      },
+      {
+        "rank": 4,
+        "ingredient": "천년건"
+      },
+      {
+        "rank": 5,
+        "ingredient": "속단"
+      },
+      {
+        "rank": 6,
+        "ingredient": "제천오"
+      },
+      {
+        "rank": 7,
+        "ingredient": "두충"
+      },
+      {
+        "rank": 8,
+        "ingredient": "위령선"
+      },
+      {
+        "rank": 9,
+        "ingredient": "독활"
+      },
+      {
+        "rank": 10,
+        "ingredient": "표골"
+      },
+      {
+        "rank": 11,
+        "ingredient": "해풍등"
+      },
+      {
+        "rank": 12,
+        "ingredient": "향유"
+      },
+      {
+        "rank": 13,
+        "ingredient": "제초오"
+      },
+      {
+        "rank": 14,
+        "ingredient": "강활"
+      },
+      {
+        "rank": 15,
+        "ingredient": "유송절"
+      },
+      {
+        "rank": 16,
+        "ingredient": "오가피"
+      },
+      {
+        "rank": 17,
+        "ingredient": "철사위령선"
+      },
+      {
+        "rank": 18,
+        "ingredient": "홍화"
+      },
+      {
+        "rank": 19,
+        "ingredient": "청풍등"
+      },
+      {
+        "rank": 20,
+        "ingredient": "향가피"
+      }
+    ]
+  }
+]

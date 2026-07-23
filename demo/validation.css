@@ -1,0 +1,312 @@
+.validation-shell {
+  padding-bottom: 46px;
+}
+
+.page-nav {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: end;
+}
+
+.page-nav a,
+.page-nav strong {
+  display: inline-flex;
+  padding: 10px 13px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--line);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.page-nav strong {
+  background: var(--text);
+  color: var(--panel);
+}
+
+.validation-grid,
+.validation-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 0.38fr);
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.model-flow,
+.stat-board,
+.chart-card,
+.candidate-explorer {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(14px);
+}
+
+.model-flow {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  gap: 10px;
+  align-items: stretch;
+  padding: 16px;
+}
+
+.flow-block {
+  display: grid;
+  gap: 5px;
+  min-height: 108px;
+  align-content: center;
+  padding: 16px;
+  border-radius: 18px;
+  background: #f7f8f5;
+  border: 1px solid var(--line);
+}
+
+.flow-block span,
+.flow-block small,
+.caption {
+  color: var(--muted);
+}
+
+.flow-block strong {
+  font-size: 20px;
+}
+
+.flow-arrow {
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.stat-board {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  padding: 16px;
+}
+
+.stat-tile {
+  display: grid;
+  gap: 5px;
+  padding: 14px;
+  border-radius: 16px;
+  background: #f3f4f1;
+}
+
+.stat-tile span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.stat-tile strong {
+  font-size: 26px;
+  font-variant-numeric: tabular-nums;
+}
+
+.chart-card,
+.candidate-explorer {
+  padding: 18px;
+}
+
+.wide-card {
+  grid-column: 1 / -1;
+}
+
+.coverage-chart,
+.label-chart,
+.combo-chart {
+  display: grid;
+  gap: 12px;
+}
+
+.bar-row {
+  display: grid;
+  grid-template-columns: 82px minmax(0, 1fr) 58px;
+  gap: 10px;
+  align-items: center;
+}
+
+.bar-row strong {
+  font-size: 14px;
+}
+
+.bar-track {
+  position: relative;
+  height: 15px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #ecefeb;
+}
+
+.bar-fill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.bar-fill.total {
+  background: var(--recipe);
+}
+
+.bar-fill.positive {
+  background: var(--multi);
+}
+
+.bar-fill.label {
+  background: var(--flavor);
+}
+
+.bar-fill.combo {
+  background: var(--tcm);
+}
+
+.bar-row span:last-child {
+  color: var(--muted);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.dual-bars {
+  display: grid;
+  gap: 5px;
+}
+
+.combo-chart {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.combo-cell {
+  display: grid;
+  gap: 8px;
+  padding: 13px;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: #fafaf8;
+}
+
+.combo-cell code {
+  font-weight: 800;
+}
+
+.combo-cell span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.explorer-head {
+  display: grid;
+  grid-template-columns: 1fr minmax(220px, 0.26fr);
+  gap: 16px;
+  align-items: end;
+  margin-bottom: 14px;
+}
+
+.herb-summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.herb-summary div {
+  display: grid;
+  gap: 4px;
+  padding: 12px;
+  border-radius: 15px;
+  background: #f3f4f1;
+}
+
+.herb-summary span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.validation-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.validation-table th,
+.validation-table td {
+  padding: 10px 9px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.validation-table th {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.axis-pills,
+.llm-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.mini-pill {
+  display: inline-flex;
+  border-radius: 999px;
+  padding: 3px 7px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.mini-pill.off {
+  background: #c7ccc4;
+}
+
+.mini-pill.cook,
+.mini-pill.claude {
+  background: var(--recipe);
+}
+
+.mini-pill.flavor,
+.mini-pill.llama {
+  background: var(--flavor);
+}
+
+.mini-pill.prop,
+.mini-pill.gpt {
+  background: var(--tcm);
+}
+
+.feature-number {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+@media (max-width: 1050px) {
+  .validation-grid,
+  .validation-main,
+  .explorer-head {
+    grid-template-columns: 1fr;
+  }
+
+  .model-flow {
+    grid-template-columns: 1fr;
+  }
+
+  .flow-arrow {
+    display: none;
+  }
+
+  .combo-chart,
+  .herb-summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .stat-board,
+  .combo-chart,
+  .herb-summary {
+    grid-template-columns: 1fr;
+  }
+}

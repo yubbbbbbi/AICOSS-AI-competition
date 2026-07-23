@@ -1,0 +1,1500 @@
+[
+  {
+    "herb": "대추",
+    "recipe_count": 30,
+    "recipe_confidence": 1.0,
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "설탕",
+        "count": 18
+      },
+      {
+        "rank": 2,
+        "ingredient": "계란",
+        "count": 13
+      },
+      {
+        "rank": 3,
+        "ingredient": "버터",
+        "count": 13
+      },
+      {
+        "rank": 4,
+        "ingredient": "넛맥",
+        "count": 8
+      },
+      {
+        "rank": 5,
+        "ingredient": "건포도",
+        "count": 8
+      },
+      {
+        "rank": 6,
+        "ingredient": "시나몬",
+        "count": 7
+      },
+      {
+        "rank": 7,
+        "ingredient": "호두",
+        "count": 7
+      },
+      {
+        "rank": 8,
+        "ingredient": "사과",
+        "count": 7
+      },
+      {
+        "rank": 9,
+        "ingredient": "올스파이스",
+        "count": 7
+      },
+      {
+        "rank": 10,
+        "ingredient": "베이킹소다",
+        "count": 6
+      },
+      {
+        "rank": 11,
+        "ingredient": "살구",
+        "count": 6
+      },
+      {
+        "rank": 12,
+        "ingredient": "레몬",
+        "count": 6
+      },
+      {
+        "rank": 13,
+        "ingredient": "베이킹파우더",
+        "count": 5
+      },
+      {
+        "rank": 14,
+        "ingredient": "식초",
+        "count": 5
+      },
+      {
+        "rank": 15,
+        "ingredient": "양파",
+        "count": 5
+      },
+      {
+        "rank": 16,
+        "ingredient": "밀가루",
+        "count": 4
+      },
+      {
+        "rank": 17,
+        "ingredient": "바닐라",
+        "count": 4
+      },
+      {
+        "rank": 18,
+        "ingredient": "꿀",
+        "count": 4
+      },
+      {
+        "rank": 19,
+        "ingredient": "술타나건포도",
+        "count": 4
+      },
+      {
+        "rank": 20,
+        "ingredient": "생강",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "herb": "당귀",
+    "recipe_count": 11,
+    "recipe_confidence": 0.3667,
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "설탕",
+        "count": 9
+      },
+      {
+        "rank": 2,
+        "ingredient": "계란",
+        "count": 5
+      },
+      {
+        "rank": 3,
+        "ingredient": "레몬",
+        "count": 5
+      },
+      {
+        "rank": 4,
+        "ingredient": "버터",
+        "count": 5
+      },
+      {
+        "rank": 5,
+        "ingredient": "우유",
+        "count": 5
+      },
+      {
+        "rank": 6,
+        "ingredient": "밀가루",
+        "count": 3
+      },
+      {
+        "rank": 7,
+        "ingredient": "정향",
+        "count": 3
+      },
+      {
+        "rank": 8,
+        "ingredient": "레몬껍질",
+        "count": 2
+      },
+      {
+        "rank": 9,
+        "ingredient": "체리",
+        "count": 2
+      },
+      {
+        "rank": 10,
+        "ingredient": "건포도",
+        "count": 2
+      },
+      {
+        "rank": 11,
+        "ingredient": "커런트",
+        "count": 2
+      },
+      {
+        "rank": 12,
+        "ingredient": "호두",
+        "count": 2
+      },
+      {
+        "rank": 13,
+        "ingredient": "아몬드",
+        "count": 2
+      },
+      {
+        "rank": 14,
+        "ingredient": "시나몬",
+        "count": 2
+      },
+      {
+        "rank": 15,
+        "ingredient": "꿀",
+        "count": 2
+      },
+      {
+        "rank": 16,
+        "ingredient": "조리용사과",
+        "count": 1
+      },
+      {
+        "rank": 17,
+        "ingredient": "젤라틴가루",
+        "count": 1
+      },
+      {
+        "rank": 18,
+        "ingredient": "미드주",
+        "count": 1
+      },
+      {
+        "rank": 19,
+        "ingredient": "더블크림",
+        "count": 1
+      },
+      {
+        "rank": 20,
+        "ingredient": "베이킹소다",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "herb": "월계수",
+    "recipe_count": 30,
+    "recipe_confidence": 1.0,
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "양파",
+        "count": 24
+      },
+      {
+        "rank": 2,
+        "ingredient": "당근",
+        "count": 22
+      },
+      {
+        "rank": 3,
+        "ingredient": "마늘",
+        "count": 14
+      },
+      {
+        "rank": 4,
+        "ingredient": "크림",
+        "count": 13
+      },
+      {
+        "rank": 5,
+        "ingredient": "감자",
+        "count": 12
+      },
+      {
+        "rank": 6,
+        "ingredient": "셀러리",
+        "count": 11
+      },
+      {
+        "rank": 7,
+        "ingredient": "딜",
+        "count": 10
+      },
+      {
+        "rank": 8,
+        "ingredient": "레몬",
+        "count": 9
+      },
+      {
+        "rank": 9,
+        "ingredient": "버터",
+        "count": 9
+      },
+      {
+        "rank": 10,
+        "ingredient": "통후추",
+        "count": 8
+      },
+      {
+        "rank": 11,
+        "ingredient": "토마토",
+        "count": 7
+      },
+      {
+        "rank": 12,
+        "ingredient": "비트",
+        "count": 7
+      },
+      {
+        "rank": 13,
+        "ingredient": "양배추",
+        "count": 7
+      },
+      {
+        "rank": 14,
+        "ingredient": "토마토페이스트",
+        "count": 6
+      },
+      {
+        "rank": 15,
+        "ingredient": "셀러리",
+        "count": 5
+      },
+      {
+        "rank": 16,
+        "ingredient": "밀가루",
+        "count": 5
+      },
+      {
+        "rank": 17,
+        "ingredient": "소금",
+        "count": 4
+      },
+      {
+        "rank": 18,
+        "ingredient": "설탕",
+        "count": 4
+      },
+      {
+        "rank": 19,
+        "ingredient": "파슬리",
+        "count": 4
+      },
+      {
+        "rank": 20,
+        "ingredient": "올리브오일",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "herb": "우엉",
+    "recipe_count": 19,
+    "recipe_confidence": 0.6333,
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "당근",
+        "count": 15
+      },
+      {
+        "rank": 2,
+        "ingredient": "간장",
+        "count": 13
+      },
+      {
+        "rank": 3,
+        "ingredient": "설탕",
+        "count": 10
+      },
+      {
+        "rank": 4,
+        "ingredient": "사케",
+        "count": 10
+      },
+      {
+        "rank": 5,
+        "ingredient": "미림",
+        "count": 9
+      },
+      {
+        "rank": 6,
+        "ingredient": "식용유",
+        "count": 7
+      },
+      {
+        "rank": 7,
+        "ingredient": "참기름",
+        "count": 7
+      },
+      {
+        "rank": 8,
+        "ingredient": "표고버섯",
+        "count": 7
+      },
+      {
+        "rank": 9,
+        "ingredient": "다시",
+        "count": 5
+      },
+      {
+        "rank": 10,
+        "ingredient": "대파",
+        "count": 5
+      },
+      {
+        "rank": 11,
+        "ingredient": "무",
+        "count": 4
+      },
+      {
+        "rank": 12,
+        "ingredient": "연근",
+        "count": 4
+      },
+      {
+        "rank": 13,
+        "ingredient": "다시육수",
+        "count": 3
+      },
+      {
+        "rank": 14,
+        "ingredient": "생강",
+        "count": 3
+      },
+      {
+        "rank": 15,
+        "ingredient": "마늘",
+        "count": 3
+      },
+      {
+        "rank": 16,
+        "ingredient": "토란",
+        "count": 3
+      },
+      {
+        "rank": 17,
+        "ingredient": "미소된장",
+        "count": 3
+      },
+      {
+        "rank": 18,
+        "ingredient": "닭고기",
+        "count": 3
+      },
+      {
+        "rank": 19,
+        "ingredient": "두부",
+        "count": 3
+      },
+      {
+        "rank": 20,
+        "ingredient": "닭다리살",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "herb": "연꽃",
+    "recipe_count": 24,
+    "recipe_confidence": 0.8,
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "설탕",
+        "count": 16
+      },
+      {
+        "rank": 2,
+        "ingredient": "간장",
+        "count": 8
+      },
+      {
+        "rank": 3,
+        "ingredient": "식용유",
+        "count": 6
+      },
+      {
+        "rank": 4,
+        "ingredient": "당근",
+        "count": 5
+      },
+      {
+        "rank": 5,
+        "ingredient": "참기름",
+        "count": 4
+      },
+      {
+        "rank": 6,
+        "ingredient": "우엉",
+        "count": 4
+      },
+      {
+        "rank": 7,
+        "ingredient": "표고버섯",
+        "count": 4
+      },
+      {
+        "rank": 8,
+        "ingredient": "사케",
+        "count": 4
+      },
+      {
+        "rank": 9,
+        "ingredient": "마늘",
+        "count": 3
+      },
+      {
+        "rank": 10,
+        "ingredient": "생강",
+        "count": 3
+      },
+      {
+        "rank": 11,
+        "ingredient": "찹쌀",
+        "count": 3
+      },
+      {
+        "rank": 12,
+        "ingredient": "양파",
+        "count": 3
+      },
+      {
+        "rank": 13,
+        "ingredient": "베이킹파우더",
+        "count": 2
+      },
+      {
+        "rank": 14,
+        "ingredient": "식용유",
+        "count": 2
+      },
+      {
+        "rank": 15,
+        "ingredient": "닭가슴살",
+        "count": 2
+      },
+      {
+        "rank": 16,
+        "ingredient": "백후추",
+        "count": 2
+      },
+      {
+        "rank": 17,
+        "ingredient": "전분",
+        "count": 2
+      },
+      {
+        "rank": 18,
+        "ingredient": "두부",
+        "count": 2
+      },
+      {
+        "rank": 19,
+        "ingredient": "물밤",
+        "count": 2
+      },
+      {
+        "rank": 20,
+        "ingredient": "건포도",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "herb": "회향",
+    "recipe_count": 30,
+    "recipe_confidence": 1.0,
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "양파",
+        "count": 11
+      },
+      {
+        "rank": 2,
+        "ingredient": "마늘",
+        "count": 11
+      },
+      {
+        "rank": 3,
+        "ingredient": "버터",
+        "count": 10
+      },
+      {
+        "rank": 4,
+        "ingredient": "설탕",
+        "count": 9
+      },
+      {
+        "rank": 5,
+        "ingredient": "파슬리",
+        "count": 7
+      },
+      {
+        "rank": 6,
+        "ingredient": "올리브오일",
+        "count": 7
+      },
+      {
+        "rank": 7,
+        "ingredient": "토마토",
+        "count": 6
+      },
+      {
+        "rank": 8,
+        "ingredient": "레몬",
+        "count": 6
+      },
+      {
+        "rank": 9,
+        "ingredient": "호밀가루",
+        "count": 5
+      },
+      {
+        "rank": 10,
+        "ingredient": "계란",
+        "count": 5
+      },
+      {
+        "rank": 11,
+        "ingredient": "밀가루",
+        "count": 4
+      },
+      {
+        "rank": 12,
+        "ingredient": "이스트",
+        "count": 4
+      },
+      {
+        "rank": 13,
+        "ingredient": "닭육수",
+        "count": 4
+      },
+      {
+        "rank": 14,
+        "ingredient": "카이엔페퍼",
+        "count": 4
+      },
+      {
+        "rank": 15,
+        "ingredient": "소금후추",
+        "count": 4
+      },
+      {
+        "rank": 16,
+        "ingredient": "파프리카",
+        "count": 4
+      },
+      {
+        "rank": 17,
+        "ingredient": "사과식초",
+        "count": 3
+      },
+      {
+        "rank": 18,
+        "ingredient": "건조양파",
+        "count": 3
+      },
+      {
+        "rank": 19,
+        "ingredient": "캐러웨이씨드",
+        "count": 3
+      },
+      {
+        "rank": 20,
+        "ingredient": "코코아가루",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "herb": "칡",
+    "recipe_count": 30,
+    "recipe_confidence": 1.0,
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "버터",
+        "count": 9
+      },
+      {
+        "rank": 2,
+        "ingredient": "양파",
+        "count": 7
+      },
+      {
+        "rank": 3,
+        "ingredient": "계란",
+        "count": 7
+      },
+      {
+        "rank": 4,
+        "ingredient": "레몬",
+        "count": 7
+      },
+      {
+        "rank": 5,
+        "ingredient": "마늘",
+        "count": 6
+      },
+      {
+        "rank": 6,
+        "ingredient": "올리브오일",
+        "count": 6
+      },
+      {
+        "rank": 7,
+        "ingredient": "화이트와인",
+        "count": 6
+      },
+      {
+        "rank": 8,
+        "ingredient": "설탕",
+        "count": 6
+      },
+      {
+        "rank": 9,
+        "ingredient": "시나몬",
+        "count": 5
+      },
+      {
+        "rank": 10,
+        "ingredient": "우유",
+        "count": 5
+      },
+      {
+        "rank": 11,
+        "ingredient": "토마토",
+        "count": 4
+      },
+      {
+        "rank": 12,
+        "ingredient": "코코넛밀크",
+        "count": 4
+      },
+      {
+        "rank": 13,
+        "ingredient": "밀가루",
+        "count": 4
+      },
+      {
+        "rank": 14,
+        "ingredient": "파슬리",
+        "count": 4
+      },
+      {
+        "rank": 15,
+        "ingredient": "타임",
+        "count": 3
+      },
+      {
+        "rank": 16,
+        "ingredient": "계란노른자",
+        "count": 3
+      },
+      {
+        "rank": 17,
+        "ingredient": "바나나",
+        "count": 3
+      },
+      {
+        "rank": 18,
+        "ingredient": "로즈마리",
+        "count": 3
+      },
+      {
+        "rank": 19,
+        "ingredient": "닭육수",
+        "count": 3
+      },
+      {
+        "rank": 20,
+        "ingredient": "디종머스터드",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "herb": "생강",
+    "recipe_count": 30,
+    "recipe_confidence": 1.0,
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "설탕",
+        "count": 13
+      },
+      {
+        "rank": 2,
+        "ingredient": "시나몬",
+        "count": 10
+      },
+      {
+        "rank": 3,
+        "ingredient": "정향",
+        "count": 8
+      },
+      {
+        "rank": 4,
+        "ingredient": "밀가루",
+        "count": 8
+      },
+      {
+        "rank": 5,
+        "ingredient": "레몬",
+        "count": 7
+      },
+      {
+        "rank": 6,
+        "ingredient": "버터",
+        "count": 6
+      },
+      {
+        "rank": 7,
+        "ingredient": "올스파이스",
+        "count": 5
+      },
+      {
+        "rank": 8,
+        "ingredient": "넛맥",
+        "count": 4
+      },
+      {
+        "rank": 9,
+        "ingredient": "소금후추",
+        "count": 4
+      },
+      {
+        "rank": 10,
+        "ingredient": "계란",
+        "count": 4
+      },
+      {
+        "rank": 11,
+        "ingredient": "오렌지농축액",
+        "count": 3
+      },
+      {
+        "rank": 12,
+        "ingredient": "보드카",
+        "count": 3
+      },
+      {
+        "rank": 13,
+        "ingredient": "당근",
+        "count": 3
+      },
+      {
+        "rank": 14,
+        "ingredient": "양파",
+        "count": 3
+      },
+      {
+        "rank": 15,
+        "ingredient": "마늘",
+        "count": 3
+      },
+      {
+        "rank": 16,
+        "ingredient": "올리브오일",
+        "count": 3
+      },
+      {
+        "rank": 17,
+        "ingredient": "카다몬",
+        "count": 3
+      },
+      {
+        "rank": 18,
+        "ingredient": "소금",
+        "count": 3
+      },
+      {
+        "rank": 19,
+        "ingredient": "오렌지주스",
+        "count": 3
+      },
+      {
+        "rank": 20,
+        "ingredient": "오렌지제스트",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "herb": "시나몬",
+    "recipe_count": 30,
+    "recipe_confidence": 1.0,
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "설탕",
+        "count": 24
+      },
+      {
+        "rank": 2,
+        "ingredient": "계란",
+        "count": 12
+      },
+      {
+        "rank": 3,
+        "ingredient": "버터",
+        "count": 11
+      },
+      {
+        "rank": 4,
+        "ingredient": "정향",
+        "count": 11
+      },
+      {
+        "rank": 5,
+        "ingredient": "밀가루",
+        "count": 9
+      },
+      {
+        "rank": 6,
+        "ingredient": "베이킹소다",
+        "count": 7
+      },
+      {
+        "rank": 7,
+        "ingredient": "호두",
+        "count": 7
+      },
+      {
+        "rank": 8,
+        "ingredient": "차",
+        "count": 7
+      },
+      {
+        "rank": 9,
+        "ingredient": "넛맥",
+        "count": 6
+      },
+      {
+        "rank": 10,
+        "ingredient": "우유",
+        "count": 6
+      },
+      {
+        "rank": 11,
+        "ingredient": "건포도",
+        "count": 6
+      },
+      {
+        "rank": 12,
+        "ingredient": "베이킹파우더",
+        "count": 4
+      },
+      {
+        "rank": 13,
+        "ingredient": "사과",
+        "count": 4
+      },
+      {
+        "rank": 14,
+        "ingredient": "바닐라",
+        "count": 4
+      },
+      {
+        "rank": 15,
+        "ingredient": "계란노른자",
+        "count": 4
+      },
+      {
+        "rank": 16,
+        "ingredient": "오렌지분말",
+        "count": 4
+      },
+      {
+        "rank": 17,
+        "ingredient": "밀가루",
+        "count": 3
+      },
+      {
+        "rank": 18,
+        "ingredient": "올스파이스",
+        "count": 3
+      },
+      {
+        "rank": 19,
+        "ingredient": "바닐라익스트랙",
+        "count": 3
+      },
+      {
+        "rank": 20,
+        "ingredient": "계란흰자",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "herb": "팔각",
+    "recipe_count": 30,
+    "recipe_confidence": 1.0,
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "설탕",
+        "count": 15
+      },
+      {
+        "rank": 2,
+        "ingredient": "시나몬",
+        "count": 13
+      },
+      {
+        "rank": 3,
+        "ingredient": "양파",
+        "count": 9
+      },
+      {
+        "rank": 4,
+        "ingredient": "정향",
+        "count": 9
+      },
+      {
+        "rank": 5,
+        "ingredient": "월계수잎",
+        "count": 9
+      },
+      {
+        "rank": 6,
+        "ingredient": "레몬",
+        "count": 8
+      },
+      {
+        "rank": 7,
+        "ingredient": "생강",
+        "count": 7
+      },
+      {
+        "rank": 8,
+        "ingredient": "올리브오일",
+        "count": 7
+      },
+      {
+        "rank": 9,
+        "ingredient": "버터",
+        "count": 6
+      },
+      {
+        "rank": 10,
+        "ingredient": "타임",
+        "count": 6
+      },
+      {
+        "rank": 11,
+        "ingredient": "마늘",
+        "count": 6
+      },
+      {
+        "rank": 12,
+        "ingredient": "당근",
+        "count": 5
+      },
+      {
+        "rank": 13,
+        "ingredient": "넛맥",
+        "count": 5
+      },
+      {
+        "rank": 14,
+        "ingredient": "통후추",
+        "count": 5
+      },
+      {
+        "rank": 15,
+        "ingredient": "파슬리",
+        "count": 4
+      },
+      {
+        "rank": 16,
+        "ingredient": "오레가노",
+        "count": 4
+      },
+      {
+        "rank": 17,
+        "ingredient": "꿀",
+        "count": 4
+      },
+      {
+        "rank": 18,
+        "ingredient": "오렌지주스",
+        "count": 4
+      },
+      {
+        "rank": 19,
+        "ingredient": "파스닙",
+        "count": 3
+      },
+      {
+        "rank": 20,
+        "ingredient": "소고기육수",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "herb": "박하",
+    "recipe_count": 30,
+    "recipe_confidence": 1.0,
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "설탕",
+        "count": 10
+      },
+      {
+        "rank": 2,
+        "ingredient": "레몬",
+        "count": 10
+      },
+      {
+        "rank": 3,
+        "ingredient": "올리브오일",
+        "count": 7
+      },
+      {
+        "rank": 4,
+        "ingredient": "소금후추",
+        "count": 6
+      },
+      {
+        "rank": 5,
+        "ingredient": "오이",
+        "count": 6
+      },
+      {
+        "rank": 6,
+        "ingredient": "양파",
+        "count": 6
+      },
+      {
+        "rank": 7,
+        "ingredient": "마늘",
+        "count": 5
+      },
+      {
+        "rank": 8,
+        "ingredient": "버터",
+        "count": 5
+      },
+      {
+        "rank": 9,
+        "ingredient": "무",
+        "count": 4
+      },
+      {
+        "rank": 10,
+        "ingredient": "닭가슴살",
+        "count": 3
+      },
+      {
+        "rank": 11,
+        "ingredient": "토마토",
+        "count": 3
+      },
+      {
+        "rank": 12,
+        "ingredient": "딸기",
+        "count": 3
+      },
+      {
+        "rank": 13,
+        "ingredient": "플레인요거트",
+        "count": 3
+      },
+      {
+        "rank": 14,
+        "ingredient": "바질",
+        "count": 3
+      },
+      {
+        "rank": 15,
+        "ingredient": "소금후추",
+        "count": 3
+      },
+      {
+        "rank": 16,
+        "ingredient": "소금",
+        "count": 2
+      },
+      {
+        "rank": 17,
+        "ingredient": "딜",
+        "count": 2
+      },
+      {
+        "rank": 18,
+        "ingredient": "마늘",
+        "count": 2
+      },
+      {
+        "rank": 19,
+        "ingredient": "계란",
+        "count": 2
+      },
+      {
+        "rank": 20,
+        "ingredient": "밀가루",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "herb": "마",
+    "recipe_count": 30,
+    "recipe_confidence": 1.0,
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "양파",
+        "count": 15
+      },
+      {
+        "rank": 2,
+        "ingredient": "올리브오일",
+        "count": 9
+      },
+      {
+        "rank": 3,
+        "ingredient": "시나몬",
+        "count": 8
+      },
+      {
+        "rank": 4,
+        "ingredient": "마늘",
+        "count": 8
+      },
+      {
+        "rank": 5,
+        "ingredient": "커민",
+        "count": 8
+      },
+      {
+        "rank": 6,
+        "ingredient": "마늘",
+        "count": 7
+      },
+      {
+        "rank": 7,
+        "ingredient": "카이엔페퍼",
+        "count": 7
+      },
+      {
+        "rank": 8,
+        "ingredient": "밀가루",
+        "count": 6
+      },
+      {
+        "rank": 9,
+        "ingredient": "빨간파프리카",
+        "count": 6
+      },
+      {
+        "rank": 10,
+        "ingredient": "버터",
+        "count": 6
+      },
+      {
+        "rank": 11,
+        "ingredient": "생강",
+        "count": 6
+      },
+      {
+        "rank": 12,
+        "ingredient": "당근",
+        "count": 5
+      },
+      {
+        "rank": 13,
+        "ingredient": "계란",
+        "count": 5
+      },
+      {
+        "rank": 14,
+        "ingredient": "레몬",
+        "count": 5
+      },
+      {
+        "rank": 15,
+        "ingredient": "토마토",
+        "count": 5
+      },
+      {
+        "rank": 16,
+        "ingredient": "피망",
+        "count": 4
+      },
+      {
+        "rank": 17,
+        "ingredient": "설탕",
+        "count": 4
+      },
+      {
+        "rank": 18,
+        "ingredient": "고수",
+        "count": 4
+      },
+      {
+        "rank": 19,
+        "ingredient": "소금후추",
+        "count": 4
+      },
+      {
+        "rank": 20,
+        "ingredient": "바질",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "herb": "강황",
+    "recipe_count": 30,
+    "recipe_confidence": 1.0,
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "양파",
+        "count": 14
+      },
+      {
+        "rank": 2,
+        "ingredient": "생강",
+        "count": 10
+      },
+      {
+        "rank": 3,
+        "ingredient": "마늘",
+        "count": 9
+      },
+      {
+        "rank": 4,
+        "ingredient": "고수",
+        "count": 9
+      },
+      {
+        "rank": 5,
+        "ingredient": "당근",
+        "count": 8
+      },
+      {
+        "rank": 6,
+        "ingredient": "레몬",
+        "count": 8
+      },
+      {
+        "rank": 7,
+        "ingredient": "버터",
+        "count": 7
+      },
+      {
+        "rank": 8,
+        "ingredient": "식용유",
+        "count": 7
+      },
+      {
+        "rank": 9,
+        "ingredient": "커민씨드",
+        "count": 5
+      },
+      {
+        "rank": 10,
+        "ingredient": "닭가슴살",
+        "count": 5
+      },
+      {
+        "rank": 11,
+        "ingredient": "카이엔페퍼",
+        "count": 5
+      },
+      {
+        "rank": 12,
+        "ingredient": "채소육수",
+        "count": 5
+      },
+      {
+        "rank": 13,
+        "ingredient": "설탕",
+        "count": 5
+      },
+      {
+        "rank": 14,
+        "ingredient": "커민",
+        "count": 5
+      },
+      {
+        "rank": 15,
+        "ingredient": "고춧가루",
+        "count": 4
+      },
+      {
+        "rank": 16,
+        "ingredient": "고수씨드",
+        "count": 4
+      },
+      {
+        "rank": 17,
+        "ingredient": "셀러리",
+        "count": 4
+      },
+      {
+        "rank": 18,
+        "ingredient": "소금후추",
+        "count": 4
+      },
+      {
+        "rank": 19,
+        "ingredient": "시나몬",
+        "count": 4
+      },
+      {
+        "rank": 20,
+        "ingredient": "감자",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "herb": "모과",
+    "recipe_count": 30,
+    "recipe_confidence": 1.0,
+    "ingredients": [
+      {
+        "rank": 1,
+        "ingredient": "설탕",
+        "count": 24
+      },
+      {
+        "rank": 2,
+        "ingredient": "레몬",
+        "count": 15
+      },
+      {
+        "rank": 3,
+        "ingredient": "시나몬",
+        "count": 13
+      },
+      {
+        "rank": 4,
+        "ingredient": "버터",
+        "count": 8
+      },
+      {
+        "rank": 5,
+        "ingredient": "양파",
+        "count": 8
+      },
+      {
+        "rank": 6,
+        "ingredient": "생강",
+        "count": 7
+      },
+      {
+        "rank": 7,
+        "ingredient": "정향",
+        "count": 5
+      },
+      {
+        "rank": 8,
+        "ingredient": "토마토",
+        "count": 5
+      },
+      {
+        "rank": 9,
+        "ingredient": "꿀",
+        "count": 4
+      },
+      {
+        "rank": 10,
+        "ingredient": "아몬드",
+        "count": 4
+      },
+      {
+        "rank": 11,
+        "ingredient": "넛맥",
+        "count": 4
+      },
+      {
+        "rank": 12,
+        "ingredient": "고수",
+        "count": 4
+      },
+      {
+        "rank": 13,
+        "ingredient": "마늘",
+        "count": 3
+      },
+      {
+        "rank": 14,
+        "ingredient": "양고기",
+        "count": 3
+      },
+      {
+        "rank": 15,
+        "ingredient": "강황",
+        "count": 3
+      },
+      {
+        "rank": 16,
+        "ingredient": "당근",
+        "count": 3
+      },
+      {
+        "rank": 17,
+        "ingredient": "쿠스쿠스",
+        "count": 3
+      },
+      {
+        "rank": 18,
+        "ingredient": "사프란",
+        "count": 3
+      },
+      {
+        "rank": 19,
+        "ingredient": "올리브오일",
+        "count": 3
+      },
+      {
+        "rank": 20,
+        "ingredient": "바닐라",
+        "count": 2
+      }
+    ]
+  }
+]
