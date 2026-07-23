@@ -1,0 +1,170 @@
+{
+  "experiment": "exp1 (조리축=RecipeDB 430)",
+  "structure": {
+    "01_dataset": "학습 데이터",
+    "02_model": "최종 모델 + 추론 (배포용)",
+    "03_reports": "리포트 (사람용)",
+    "04_inputs": "데이터셋 재생성 원천",
+    "05_metrics": "원시 수치 (기계용)"
+  },
+  "final_model": "02_model/b5_final.pt (ConcatMLP, B5)",
+  "train_pairs": 2323,
+  "excluded_all_masked": 1373,
+  "pos_weight": {
+    "claude": 8.22,
+    "llama": 8.72,
+    "gpt": 7.6
+  },
+  "files": [
+    {
+      "path": "01_dataset/exp1_dataset.csv",
+      "size": 309629,
+      "md5": "69e0eb56895d",
+      "desc": "메인 학습 데이터셋 3696×23"
+    },
+    {
+      "path": "01_dataset/exp1_feature_spec.md",
+      "size": 16895,
+      "md5": "5f9eeda46a45",
+      "desc": ""
+    },
+    {
+      "path": "01_dataset/prop_only_pairs.csv",
+      "size": 15633,
+      "md5": "1bec0bf1934a",
+      "desc": "전통 단독 377쌍"
+    },
+    {
+      "path": "02_model/b5_config.json",
+      "size": 1158,
+      "md5": "aedb7f94b696",
+      "desc": "모델 설정·하이퍼파라미터"
+    },
+    {
+      "path": "02_model/b5_final.pt",
+      "size": 10529,
+      "md5": "6c9a28d6ef5a",
+      "desc": "최종 모델 ConcatMLP"
+    },
+    {
+      "path": "02_model/moe_final.pt",
+      "size": 14367,
+      "md5": "7f29d20c2892",
+      "desc": "MoE 가중치 (참고)"
+    },
+    {
+      "path": "02_model/predict.py",
+      "size": 4532,
+      "md5": "9130b91b0843",
+      "desc": "추론 스크립트 (B5, 기본)"
+    },
+    {
+      "path": "02_model/predict_moe.py",
+      "size": 4366,
+      "md5": "1e3192865bfa",
+      "desc": "MoE 추론 (게이트 표시, 참고)"
+    },
+    {
+      "path": "02_model/scaler.pkl",
+      "size": 391,
+      "md5": "0c8d50aca850",
+      "desc": "정규화 통계 (추론 재현)"
+    },
+    {
+      "path": "03_reports/exp1_coverage.md",
+      "size": 7403,
+      "md5": "3b4490037c64",
+      "desc": "커버리지 리포트"
+    },
+    {
+      "path": "03_reports/exp1_final_report.md",
+      "size": 10451,
+      "md5": "1d274cda2af7",
+      "desc": "최종 분석 리포트"
+    },
+    {
+      "path": "03_reports/moe_all_herbs.md",
+      "size": 11764,
+      "md5": "ce3eae9866cd",
+      "desc": "MoE 14개 herb 전체 추천"
+    },
+    {
+      "path": "03_reports/prediction_examples.md",
+      "size": 6855,
+      "md5": "c4f17ec0ad38",
+      "desc": "실제 추론 예시 6종 (B5)"
+    },
+    {
+      "path": "03_reports/prediction_examples_moe.md",
+      "size": 5204,
+      "md5": "0e688ee66168",
+      "desc": "MoE 추론 예시 + 게이트"
+    },
+    {
+      "path": "03_reports/train_results.md",
+      "size": 8093,
+      "md5": "674c4f33acc8",
+      "desc": "학습 결과 리포트"
+    },
+    {
+      "path": "04_inputs/candidate_mapping.csv",
+      "size": 23677,
+      "md5": "5a4cfde8b0fd",
+      "desc": "후보→CHP 매핑"
+    },
+    {
+      "path": "04_inputs/candidate_properties.csv",
+      "size": 22439,
+      "md5": "6f9757908f41",
+      "desc": "후보 성미귀경"
+    },
+    {
+      "path": "04_inputs/flavorgraph_emb.npz",
+      "size": 7446185,
+      "md5": "72c2195a537a",
+      "desc": "FG 임베딩 6653×300"
+    },
+    {
+      "path": "04_inputs/flavorgraph_match.csv",
+      "size": 836022,
+      "md5": "6c9dd66bd252",
+      "desc": "FG 어휘 매칭"
+    },
+    {
+      "path": "04_inputs/herb_properties.csv",
+      "size": 4666,
+      "md5": "db3b90492bc3",
+      "desc": "14 herb 성미귀경"
+    },
+    {
+      "path": "05_metrics/coverage_stats.json",
+      "size": 6476,
+      "md5": "d941a58e5813",
+      "desc": "커버리지·pos_weight"
+    },
+    {
+      "path": "05_metrics/final_stats.json",
+      "size": 2063,
+      "md5": "c61a281de8e6",
+      "desc": "증분·t-test 수치"
+    },
+    {
+      "path": "05_metrics/gate_analysis.json",
+      "size": 1632,
+      "md5": "959e9ea62c4c",
+      "desc": "게이트 sharpness"
+    },
+    {
+      "path": "05_metrics/train_metrics.json",
+      "size": 4273,
+      "md5": "5b9a829a5180",
+      "desc": "PR-AUC·게이트 프로파일"
+    },
+    {
+      "path": "README.md",
+      "size": 5268,
+      "md5": "c89d0090314b",
+      "desc": ""
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "model": "ConcatMLP",
+  "final_model": "b5_final.pt",
+  "reference_model": "moe_final.pt",
+  "feature_order": [
+    "cook_count",
+    "cook_rank_inv",
+    "cook_pmi",
+    "fg_cosine",
+    "fdb_rank_inv",
+    "qi_diff",
+    "qi_B",
+    "wei_jac",
+    "gui_jac"
+  ],
+  "group_slices": {
+    "cook": [
+      0,
+      3
+    ],
+    "flavor": [
+      3,
+      5
+    ],
+    "prop": [
+      5,
+      9
+    ]
+  },
+  "mask_order": [
+    "mask_cook",
+    "mask_flavor",
+    "mask_prop"
+  ],
+  "label_order": [
+    "label_claude",
+    "label_llama",
+    "label_gpt"
+  ],
+  "input_layout": "concat([normalized 9 features, 3 masks]) → 12-dim",
+  "hidden": [
+    48,
+    24
+  ],
+  "dropout": 0.3,
+  "epochs": 120,
+  "seed": 0,
+  "lr": 0.005,
+  "weight_decay": 0.0001,
+  "pos_weight": [
+    8.218254089355469,
+    8.71966552734375,
+    7.603703498840332
+  ],
+  "fdb_rule": "mask_flavor=0이면 fdb_rank_inv=0 강제 (qi_B는 예외)",
+  "train_pairs": 2323,
+  "excluded_all_masked": 1373,
+  "note": "LOHO는 평가용. 이 모델은 전체 데이터 학습. 추론 시 scaler.pkl로 동일 정규화 필수."
+}
