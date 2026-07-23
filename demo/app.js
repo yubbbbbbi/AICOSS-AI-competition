@@ -3,7 +3,6 @@ const state = {
   ragData: null,
   herbIndex: 0,
   recipeRatio: 0.5,
-  tcmPenaltyStrength: 0.4,
   tcmWeights: {
     temp: 0.5,
     taste: 0.25,
@@ -14,9 +13,7 @@ const state = {
 const els = {
   herbSelect: document.getElementById("herb-select"),
   recipeFlavorRatio: document.getElementById("recipe-flavor-ratio"),
-  tcmPenaltyStrength: document.getElementById("tcm-penalty-strength"),
   recipeRatioValue: document.getElementById("recipe-ratio-value"),
-  tcmPenaltyValue: document.getElementById("tcm-penalty-value"),
   tcmTriangle: document.getElementById("tcm-triangle"),
   tcmTrianglePoint: document.getElementById("tcm-triangle-point"),
   tcmResetButton: document.getElementById("tcm-reset-button"),
@@ -42,6 +39,7 @@ const sourceDefs = [
   { key: "recipe", label: "RecipeDB", rankKey: "recipeRank", color: "var(--recipe)" },
   { key: "flavor", label: "FlavorDB", rankKey: "flavorRank", color: "var(--flavor)" },
 ];
+const TCM_PENALTY_STRENGTH = 0.4;
 const TCM_PENALTY_SCALE = 12;
 const tcmVertices = {
   temp: { x: 90, y: 18 },
@@ -143,7 +141,7 @@ function sourceSupport(candidate) {
   if (tcm.coverage > 0) {
     support.push({
       key: "tcm",
-      label: "TCM Balance",
+      label: "한방 균형",
       color: "var(--tcm)",
       balance: tcm.balance,
       coverage: tcm.coverage,
@@ -161,7 +159,7 @@ function scoreCandidate(candidate) {
   const flavorContribution = flavorScore * (1 - state.recipeRatio);
   const baseScore = recipeContribution + flavorContribution;
   const tcm = tcmBalance(candidate);
-  const tcmPenalty = state.tcmPenaltyStrength * (1 - tcm.balance) * tcm.coverage * TCM_PENALTY_SCALE;
+  const tcmPenalty = TCM_PENALTY_STRENGTH * (1 - tcm.balance) * tcm.coverage * TCM_PENALTY_SCALE;
   const fusionScore = baseScore - tcmPenalty;
   return {
     ...candidate,
@@ -304,7 +302,7 @@ function sourceBadge(source) {
   const badge = document.createElement("span");
   badge.className = `source-badge ${source.key}`;
   if (source.key === "tcm") {
-    badge.textContent = `TCM ${Math.round(source.balance * 100)}점`;
+    badge.textContent = `한방 ${Math.round(source.balance * 100)}점`;
   } else {
     badge.textContent = `${source.label.replace("DB", "")} ${source.rank}위`;
   }
@@ -373,7 +371,7 @@ function renderContributions(top20) {
       card.appendChild(contributionBar("FlavorDB", candidate.flavorContribution, max, "flavor"));
     }
     if (candidate.tcmPenalty > 0) {
-      card.appendChild(contributionBar("TCM 감점", candidate.tcmPenalty, max, "tcm"));
+      card.appendChild(contributionBar("한방 불균형 감점", candidate.tcmPenalty, max, "tcm"));
     }
     els.contributionList.appendChild(card);
   });
@@ -564,7 +562,6 @@ function render() {
 
 function updateWeightLabels() {
   els.recipeRatioValue.textContent = `${Math.round(state.recipeRatio * 100)}%`;
-  els.tcmPenaltyValue.textContent = `${Math.round(state.tcmPenaltyStrength * 100)}%`;
   const weights = normalizeWeights(state.tcmWeights);
   els.tcmTempValue.textContent = `${Math.round(weights.temp * 100)}%`;
   els.tcmTasteValue.textContent = `${Math.round(weights.taste * 100)}%`;
@@ -629,11 +626,6 @@ function initControls() {
 
   els.recipeFlavorRatio.addEventListener("input", () => {
     state.recipeRatio = Number(els.recipeFlavorRatio.value);
-    render();
-  });
-
-  els.tcmPenaltyStrength.addEventListener("input", () => {
-    state.tcmPenaltyStrength = Number(els.tcmPenaltyStrength.value);
     render();
   });
 
