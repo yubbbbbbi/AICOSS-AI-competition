@@ -384,9 +384,16 @@ function currentRagReference(herbName) {
 }
 
 function buildRagQuery(herb, top20) {
+  const topScore = Math.max(...top20.map((item) => item.fusionScore), 1);
   return {
     herb: herb.herb,
-    ingredients: top20.map((item) => item.ingredient),
+    ingredients: top20.map((item, index) => ({
+      name: item.ingredient,
+      rank: item.displayRank || index + 1,
+      order: index + 1,
+      fusionScore: item.fusionScore,
+      normalizedScore: Math.max(0, item.fusionScore) / topScore,
+    })),
   };
 }
 
@@ -406,14 +413,22 @@ function referenceSearchText(item) {
 function referenceMatch(item, query) {
   const text = referenceSearchText(item);
   const matchedIngredients = query.ingredients.filter((ingredient) => {
-    const lower = String(ingredient).toLowerCase();
+    const lower = String(ingredient.name).toLowerCase();
     return lower && text.includes(lower);
   });
   const herbMatched = text.includes(String(query.herb).toLowerCase());
+  const rankWeightedScore = matchedIngredients.reduce((sum, ingredient) => {
+    const rankScore = Math.max(1, 21 - ingredient.rank);
+    return sum + rankScore + ingredient.normalizedScore * 4;
+  }, 0);
+  const diversityBonus = matchedIngredients.length > 1 ? (matchedIngredients.length - 1) * 4 : 0;
+  const herbBonus = herbMatched ? 6 : 0;
+  const imageBonus = item.imageUrl ? 1 : 0;
   return {
     ...item,
-    matchedRecommendedIngredients: matchedIngredients,
-    ragScore: matchedIngredients.length * 10 + (herbMatched ? 3 : 0) + (item.imageUrl ? 1 : 0),
+    matchedRecommendedIngredients: matchedIngredients.map((ingredient) => ingredient.name),
+    matchedRankWeight: rankWeightedScore,
+    ragScore: rankWeightedScore + diversityBonus + herbBonus + imageBonus,
   };
 }
 
